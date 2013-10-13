@@ -1,4 +1,6 @@
 MomApp::Application.routes.draw do
+  resources :tenants
+
   root to: "static_pages#home"
   
 
